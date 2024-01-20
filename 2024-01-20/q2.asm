@@ -17,8 +17,8 @@ SKIP1:   MOV 31H, A
          MOV A, #00H
          ADD A, R3
          ADD A, R5
-         JNC SKIP2
-         MOV R5, #01H
+         JC SKIP2
+         MOV R5, #00H
          SKIP2:    ADD A, R0
                    JNC SKIP3
                    INC R5
