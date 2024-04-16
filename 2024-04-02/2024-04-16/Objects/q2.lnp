@@ -1,3 +1,0 @@
-".\Objects\sort.obj" 
-TO ".\Objects\q2" 
-PRINT(".\Listings\q2.m51")
